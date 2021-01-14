@@ -1,0 +1,59 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    background-color: darkgoldenrod;
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.notey{
+    font-size: 15px;
+}
+
+.speed{
+    float: left;
+
+}
+
+.img_speed{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed{
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.volume{
+    float: right;
+
+}
+
+.img_vol{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#volume{
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.play{
+    font-size: 22px;
+    background-color: darkgoldenrod;
+}
+
+canvas{
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkgoldenrod;
+    border-radius: 20px;
+}
