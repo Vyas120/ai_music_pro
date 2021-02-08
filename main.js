@@ -33,6 +33,8 @@ function gotresults(results){
         leftWristY = results[0].pose.leftWrist.y;
         rightWristX = results[0].pose.rightWrist.x;
         rightWristY = results[0].pose.leftWrist.y;
+        score_left = results[0].pose.keypoints[9].score;
+        score_right = results[0].pose.keypoints[10].score;
     }
 }
 
