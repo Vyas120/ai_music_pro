@@ -45,7 +45,7 @@ function draw(){
     stroke('darkgoldenrod');
 
     if(score_left > 0.2){
-        circle(20,20,leftWristX,leftWristY);
+        circle(leftWristX,leftWristY,20);
         song2.stop();
 
         if(song_status == false){
@@ -59,7 +59,7 @@ function draw(){
     stroke('darkgoldenrod');
 
     if(score_right > 0.2){
-        circle(20,20,leftWristX,leftWristY);
+        circle(leftWristX,leftWristY,20);
         song.stop();
 
         if(song2_status == false){
